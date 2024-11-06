@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090287546722",
+    "project_id": "sbmobile-32f15",
+    "storage_bucket": "sbmobile-32f15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090287546722:android:69d205a3f32bf0f805fc3b",
+        "android_client_info": {
+          "package_name": "com.example.sbmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9XCMmYgG14mpfKa6kBYw6bksQX3Yk0so"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

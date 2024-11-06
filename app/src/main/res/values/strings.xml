@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LPSMobile</string>
+    <string name="correo_login">Correo electrónico</string>
+    <string name="contraseña_login">Contraseña</string>
+    <string name="mensaje_portada">¡Bienvenido a SBMobile!</string>
+    <string name="boton_ingresar">INGRESAR</string>
+    <string name="boton_olvideContra">Olvidé contraseña</string>
+    <string name="boton_nuevaCuenta">Nuevo usuario</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="alert_icon_description">Alerta icon</string>
+    <string name="serenazgo_button_description">Botón para Serenazgo</string>
+    <string name="policia_button_description">Botón para Policía</string>
+    <string name="bomberos_button_description">Botón para Bomberos</string>
+    <string name="ambulancia_button_description">Botón para Ambulancia</string>
+
+
+</resources>

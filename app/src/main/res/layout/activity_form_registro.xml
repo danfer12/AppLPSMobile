@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    tools:context=".FormRegistro">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView3"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="150dp"
+            android:src="@drawable/logo"
+            />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:hint="Nombre"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:hint="Correo"
+            android:padding="10dp"
+            android:layout_marginStart="30dp"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:drawableLeft="@drawable/ic_phone"
+            android:maxLength="9"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_background"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:drawableLeft="@drawable/ic_lock"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_background"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Repetir contraseña"
+            android:drawableLeft="@drawable/ic_lock"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_background"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="REGISTRAR"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="15dp"
+            android:onClick="registerUser"
+            android:layout_marginTop="25dp"
+            style="@style/ColorParaBoton"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Botón para llamadas de emergencia nacionales -->
+    <Button
+        android:id="@+id/EmergenciasPrincipales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Números de emergencia nacional"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Spinner para seleccionar el distrito -->
+    <Spinner
+        android:id="@+id/districtSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmergenciasPrincipales"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Botón para llamadas al serenazgo del distrito -->
+    <Button
+        android:id="@+id/serenazgoEmergencyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar al serenazgo"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/districtSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para enviar mensaje de alerta o ayuda -->
+    <Button
+        android:id="@+id/sendAlertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar alerta/mensaje de ayuda"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/serenazgoEmergencyButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

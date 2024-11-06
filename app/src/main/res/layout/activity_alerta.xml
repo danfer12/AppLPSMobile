@@ -1,0 +1,355 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:background="@color/white">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Botón para EsSalud Violencia -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonEsSalud"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_azul"
+
+                android:scaleType="centerInside"
+                android:contentDescription="EsSalud Violencia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EsSalud\n014118000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Violencia Familiar -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonViolenciaFamiliar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_rojo"
+
+                android:scaleType="centerInside"
+                android:contentDescription="Denuncia Violencia Familiar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Violencia\n100"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Central Policial -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonCentralPolicial"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_azul"
+
+                android:scaleType="centerInside"
+                android:contentDescription="Central Policial" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Policía\n105"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Defensa Civil -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonDefensaCivil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_amarillo"
+
+                android:scaleType="centerInside"
+                android:contentDescription="Defensa Civil" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Defensa Civil\n115"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Bomberos -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonBomberos"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_rojo"
+                android:src="@drawable/ic_ambulancia"
+                android:scaleType="centerInside"
+                android:contentDescription="Bomberos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bomberos\n116"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Ambulancia -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonAmbulanciasEsSalud"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_verde"
+                android:src="@drawable/ic_ambulancia"
+                android:scaleType="centerInside"
+                android:contentDescription="Ambulancias EsSalud" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ambulancia\nEsSalud 117"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para EsSalud Info COVID-19 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonCovidInfo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_azul"
+
+                android:scaleType="centerInside"
+                android:contentDescription="EsSalud Info COVID-19" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COVID-19\n107"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Policía de Carreteras -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonPoliciaCarreteras"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_verde"
+
+                android:scaleType="centerInside"
+                android:contentDescription="Policía de Carreteras" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Policía Carreteras\n110"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Infosalud -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonInfosalud"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_amarillo"
+
+                android:scaleType="centerInside"
+                android:contentDescription="Infosalud" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Infosalud\n113"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Cruz Roja -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonCruzRoja"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_rojo"
+
+                android:scaleType="centerInside"
+                android:contentDescription="Cruz Roja" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cruz Roja\n012660481"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para SAMU -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonSamu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_verde"
+
+                android:scaleType="centerInside"
+                android:contentDescription="SAMU" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAMU\n106"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Alerta Médica -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonAlertaMedica"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_azul"
+
+                android:scaleType="centerInside"
+                android:contentDescription="Alerta Médica" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alerta Médica\n014166777"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Botón para Clave Médica -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonClaveMedica"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circulo_amarillo"
+
+                android:scaleType="centerInside"
+                android:contentDescription="Clave Médica" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clave Médica\n012658783"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </GridLayout>
+</ScrollView>
+
